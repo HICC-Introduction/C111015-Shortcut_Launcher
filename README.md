@@ -38,7 +38,7 @@
         def test_method(self):
             print(self.test_property)
 
-    if __name__ == "__main__"
+    if __name__ == "__main__":
         test_variable = test_class(2)
         test_variable.test_method()
 
