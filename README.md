@@ -24,22 +24,21 @@
 + 개발 언어 : Pyhron v3.9
 
 ### 코드룰
-''' Python
-#변수명
-test_variable = 1
 
-#클래스명
-class test_class:
-    def __init__(self):
-        #프로퍼티명
-        self.test_property = 1
+    #변수명
+    test_variable = 1
 
-    #메소드명
-    def test_method(self):
-        print(self.test_property)
+    #클래스명
+    class test_class:
+        def __init__(self):
+            #프로퍼티명
+            self.test_property = 1
 
-if __name__ == "__main__"
-    test_variable = test_class(2)
-    test_variable.test_method()
-'''
+        #메소드명
+        def test_method(self):
+            print(self.test_property)
+
+    if __name__ == "__main__"
+        test_variable = test_class(2)
+        test_variable.test_method()
 
