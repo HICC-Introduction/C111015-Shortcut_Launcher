@@ -24,7 +24,7 @@
 
 ### 소프트웨어
 + OS : Microsoft Windows 10 Education
-+ 개발 스택 : Tkinter
++ 개발 스택 : Tkinter(사용해본 적 있음)
 + 개발 프로그램 : Visual Studio Code
 + 개발 언어 : Pyhron v3.9
 
