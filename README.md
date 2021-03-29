@@ -34,7 +34,7 @@
     test_variable = 1
 
     #클래스명
-    class test_class:
+    class TestClass:
         def __init__(self):
             #프로퍼티명
             self.test_property = 1
@@ -44,6 +44,6 @@
             print(self.test_property)
 
     if __name__ == "__main__":
-        test_variable = test_class(2)
+        test_variable = TestClass(2)
         test_variable.test_method()
 
