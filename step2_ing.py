@@ -19,8 +19,7 @@ window.wm_attributes("-topmost", 1)
 def color_change(): # 프로그램 색상 지정
     color=cl.askcolor()
     print(color)
-    bg_cl = color[1]
-    window['bg'] = 'bg_cl'
+    window['bg'] = color[1]
 
 def pop_up(): # 새로운 창 생성
     new_window = tkinter.Toplevel()
@@ -28,7 +27,6 @@ def pop_up(): # 새로운 창 생성
     new_window.geometry('300x300+100+10')
     btn = tkinter.Button(new_window, text="Color", width=20, height=3, overrelief="solid", command=color_change)
     btn.grid(row=3, column=3)
-
 
 def close(): # 프로그램 종료
     window.quit()
@@ -84,6 +82,5 @@ btn5.grid(row=1, column=0)
 btn6.grid(row=1, column=1)
 btn7.grid(row=1, column=2)
 btn8.grid(row=1, column=3)
-
 
 window.mainloop()
